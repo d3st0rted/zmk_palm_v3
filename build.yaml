@@ -18,11 +18,11 @@
 include:
   - board: xiao_ble//zmk
     shield: kretstrad_left
-    snippet: studio-rpc-usb-uart
-    cmake-args: -DCONFIG_ZMK_STUDIO=y
+#    snippet: studio-rpc-usb-uart
+#    cmake-args: -DCONFIG_ZMK_STUDIO=y
   - board: xiao_ble//zmk
     shield: kretstrad_right
   - board: xiao_ble//zmk
     shield: settings_reset
-features:
-  - studio
+#features:
+#  - studio
